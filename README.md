@@ -42,9 +42,8 @@ ppt-clone-skill/
     render_slides.py  PPT -> PNG（图片区域加 mask）
     collect_ooxml_colors.py  从 OOXML 采集可控色板
     analyze_template.py      占位区清单 + slide 角色识别
-    rebuild_theme.py         theme 重写 + srgbClr 重映射
+    rebuild_theme.py         theme 重写 + srgbClr 重映射 + 12 色槽替换
     apply_content.py         仅替换文本
-    apply_theme_colors.py    仅替换主题 12 色
     verify_effect.py         前后对比渲染
     color_utils.py           色差/对比度
 ```
